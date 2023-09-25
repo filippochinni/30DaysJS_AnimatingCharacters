@@ -1,0 +1,23 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+#scritta {
+    font-size: 8vw;
+
+    animation: fadeIn 2s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
